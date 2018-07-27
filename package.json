@@ -1,0 +1,19 @@
+{
+  "name": "login-web",
+  "version": "1.0.0",
+  "description": "simple page to build structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/messyort/angular-webpack-onePage.git"
+  },
+  "author": "Shawn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/messyort/angular-webpack-onePage/issues"
+  },
+  "homepage": "https://github.com/messyort/angular-webpack-onePage#readme"
+}
