@@ -1,0 +1,117 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/anaconda3/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  9.7.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/karma-chrome-lancher: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:65656:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:134675:22)
+      at Request.emit (events.js:127:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:135658:10)
+      at Request.emit (events.js:127:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:135578:12)
+      at Object.onceWrapper (events.js:219:13)
+      at IncomingMessage.emit (events.js:132:15)
+      at endReadableNT (_stream_readable.js:1101:12)
+      at process._tickCallback (internal/process/next_tick.js:114:19)
+
+npm manifest: 
+  {
+    "name": "login-web",
+    "version": "1.0.0",
+    "description": "simple page to build structure",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/messyort/angular-webpack-onePage.git"
+    },
+    "author": "Shawn",
+    "license": "MIT",
+    "dependencies": {
+      "@angular/animations": "5.0.1",
+      "@angular/material": "^5.0.1",
+      "@angular/cdk": "^5.0.1",
+      "@angular/common": "5.0.1",
+      "@angular/compiler": "5.0.1",
+      "@angular/compiler-cli": "5.0.1",
+      "@angular/core": "5.0.1",
+      "@angular/forms": "5.0.1",
+      "@angular/http": "5.0.1",
+      "@angular/platform-browser": "5.0.1",
+      "@angular/platform-browser-dynamic": "5.0.1",
+      "@angular/router": "5.0.1",
+      "core-js": "2.4.1",
+      "rxjs": "5.5.2",
+      "zone.js": "0.8.18",
+      "reflect-metadata": "0.1.8",
+      "systemjs": "0.19.40",
+      "ngx-bootstrap": "2.0.0",
+      "intl": "1.2.5",
+      "cross-env": "^1.0.7",
+      "ngx-device-detector": "1.2.2",
+      "ngx-moment": "1.7.0",
+      "@angular/material-moment-adapter": "5.2.1"
+    },
+    "devDependencies": {
+      "@types/jasmine": "2.5.41",
+      "@types/node": "~6.0.45",
+      "angular2-template-loader": "0.6.0",
+      "bootstrap":"3.3.7",
+      "copyfiles":"latest",
+      "cross-env":"1.0.7",
+      "css-loader":"0.26.1",
+      "extract-text-webpack-plugin": "2.0.0-beta.5",
+      "file-loader":"0.9.0",
+      "html-loader":"0.4.3",
+      "style-loader":"0.13.1",
+      "ts-loader":"2.2.2",
+      "html-webpack-plugin":"2.16.1",
+      "istanbul-instrumenter-loader": "2.0.0",
+      "jasmine-core": "~2.4.1",
+      "jquery":"3.2.1",
+      "json-loader":"0.5.3",
+      "karma":"1.2.0",
+      "karma-chrome-lancher":"2.0.0",
+      "karma-coverage":"1.1.1",
+      "karma-jasmine":"1.0.2",
+      "karma-remap-istanbul": "0.6.0",
+      "karma-sourcemap-loader": "0.3.7",
+      "karma-spec-reporter": "0.0.31",
+      "karma-webpack": "2.0.3",
+      "null-loader":"0.1.1",
+      "optimize-css-assets-webpack-plugin": "3.2.0",
+      "raw-loader":"0.5.1",
+      "rimraf":"2.5.2",
+      "typescript":"2.6.1",
+      "uglifyjs-webpack-plugin": "1.1.2",
+      "webpack-dev-server": "2.4.1",
+      "webpack-merge":"3.0.0",
+      "tslint":"5.0.0"
+     
+    },
+    "bugs": {
+      "url": "https://github.com/messyort/angular-webpack-onePage/issues"
+    },
+    "homepage": "https://github.com/messyort/angular-webpack-onePage#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
